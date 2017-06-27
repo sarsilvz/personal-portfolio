@@ -1,0 +1,19 @@
+Reference
+
+orange #F8B195
+better orange: #FA8F5E
+outline orange: #F26F3F
+/*purple #6C5B7B*/
+blue #355C7D darker #2F516F
+/*raspberry #C06C84*/
+white background #FDFDFD
+white text #FDFDFD
+off black rgb(50, 52, 56)
+black text #333
+light grey background: #DDD
+dark grey background: #999
+bright pink: #F67280
+
+cool red:
+border:2px solid #dd4545;
+background: #b43838;
