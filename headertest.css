@@ -69,6 +69,7 @@ p {
   width: 3%;
   height: 100%;
   background-color: #F67280;
+
   z-index: -5;
 
 }
@@ -79,6 +80,7 @@ p {
   height: 100%;
   right: 0%;
   background-color: #F67280;
+  opacity: 90%;
   z-index: -5;
 
 }
@@ -149,6 +151,20 @@ header {
 
 }
 
+.slider {
+  background-color: rgba(252, 252, 252, 0.85);
+  margin-top: 20px;
+  border-top: 1px solid rgba(187, 187, 187, 0.95);
+  border-bottom: 1px solid rgba(187, 187, 187, 0.95);
+  width: 100%;
+
+}
+
+.gallery {
+
+
+}
+
 
 /* CONTENT */
 
@@ -171,6 +187,34 @@ header {
 
 }
 
+.aboutimg2 {
+  display: none;
+}
+
 .circleimg {
   display: none;
+  border-radius: 50% 50% 50% 50%;
+  width: 30%;
+  position: relative;
+  margin: 20px auto;
+  border: 1px solid rgba(187, 187, 187, 0.95);
+}
+
+.prev {
+  color: #FA8F5E;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+}
+
+.next {
+  color: #FA8F5E;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.shown {
+  display: block;
 }

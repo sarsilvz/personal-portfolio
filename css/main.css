@@ -259,7 +259,7 @@ header {
 
   }
 
-  .circleimg {
+  .aboutimg2 {
     display: none;
     border-radius: 50% 50% 50% 50%;
     width: 30%;
@@ -272,7 +272,7 @@ header {
 
 
 
-  .circleimg2 {
+  .circleimg {
     border-radius: 50% 50% 50% 50%;
     width: 10.5%;
     position: relative;
