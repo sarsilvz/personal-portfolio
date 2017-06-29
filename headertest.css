@@ -153,7 +153,6 @@ header {
 
 .slider {
   background-color: rgba(252, 252, 252, 0.85);
-  margin-top: 20px;
   border-top: 1px solid rgba(187, 187, 187, 0.95);
   border-bottom: 1px solid rgba(187, 187, 187, 0.95);
   width: 100%;
@@ -161,7 +160,11 @@ header {
 }
 
 .gallery {
-
+  position: relative;
+  height: 200px;
+  margin: 0 auto;
+  width: 80%;
+  line-height: 200px;
 
 }
 
@@ -191,30 +194,47 @@ header {
   display: none;
 }
 
+
+
+.centerbox {
+  float: left;
+  width: 50%;
+  line-height: 200px;
+}
+
 .circleimg {
   display: none;
   border-radius: 50% 50% 50% 50%;
-  width: 30%;
-  position: relative;
-  margin: 20px auto;
   border: 1px solid rgba(187, 187, 187, 0.95);
+  width: 100%;
+  vertical-align: middle;
+
+}
+
+.buttonbox1 {
+  width: 25%;
+  float: left;
+  line-height: 200px;
+}
+
+.buttonbox2 {
+  width: 25%;
+  float: right;
+  line-height: 200px;
 }
 
 .prev {
   color: #FA8F5E;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  vertical-align: middle;
 
 }
 
 .next {
   color: #FA8F5E;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  vertical-align: middle;
+
 }
 
 .shown {
-  display: block;
+  display: inline-block;
 }

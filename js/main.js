@@ -8,7 +8,7 @@ $('h3').click(function() {
 $('.circleimg').first().addClass('shown');
 
 
-var nextcircleimg = function () {
+$('.next').click(function () {
 
   if ($('.shown').is(':last-child')) {
     return;
@@ -17,19 +17,16 @@ var nextcircleimg = function () {
   else {
     $('.shown').removeClass('shown').next('.circleimg').addClass('shown');
   }
-}
+});
 
-var prevcircleimg = function () {
 
-  if ($('.shown').is(':first-child')) {
+$('.prev').click(function () {
+
+  if ($('.shown').hasClass('arial')) {
     return;
   }
 
   else {
-    $('.shown').removeClass('shown').previous('.circleimg').addClass('shown');
+    $('.shown').removeClass('shown').prev('.circleimg').addClass('shown');
   }
-}
-
-
-$('.next').click(nextcircleimg);
-$('.prev').click(prevcircleimg);
+});
